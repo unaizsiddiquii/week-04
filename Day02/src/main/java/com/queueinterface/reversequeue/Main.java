@@ -2,7 +2,6 @@ package com.queueinterface.reversequeue;
 
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
 public class Main {
 
@@ -18,7 +17,7 @@ public class Main {
         queue.add(5);
 
         //display the result
-        System.out.println("Orignal queue: " + queue);
+        System.out.println("Original queue: " + queue);
         System.out.println("Reversed queue: " + ReverseQueue.reverseQueue(queue));
     }
 }
