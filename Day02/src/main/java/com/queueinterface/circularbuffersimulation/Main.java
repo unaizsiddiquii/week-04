@@ -1,8 +1,8 @@
-package com.queueinterface.hospitaltriagesystem;
+package com.queueinterface.circularbuffersimulation;
 
 public class Main {
     public static void main(String[] args) {
-        HospitalTriageSystem<Integer> cb = new HospitalTriageSystem<>(3);
+        CircularBuffer<Integer> cb = new CircularBuffer<>(3);
         cb.add(1);
         cb.add(2);
         cb.add(3);

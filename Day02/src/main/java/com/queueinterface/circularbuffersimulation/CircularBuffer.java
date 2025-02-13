@@ -1,12 +1,12 @@
-package com.queueinterface.hospitaltriagesystem;
+package com.queueinterface.circularbuffersimulation;
 
 import java.util.LinkedList;
 
-public class HospitalTriageSystem<T> {
+public class CircularBuffer<T> {
     private final int capacity;
     private final LinkedList<T> buffer;
 
-    public HospitalTriageSystem(int size) {
+    public CircularBuffer(int size) {
 
         //size to limit linked list
         this.capacity = size;
