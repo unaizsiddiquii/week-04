@@ -1,6 +1,6 @@
 package frequencyofelementstesting;
 
-import com.frequencyofelements.FruitFrequency;
+import com.listinterface.frequencyofelements.FruitFrequency;
 import org.junit.Test;
 
 import java.util.*;

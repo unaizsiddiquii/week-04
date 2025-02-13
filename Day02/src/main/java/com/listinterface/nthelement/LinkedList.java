@@ -1,4 +1,4 @@
-package com.nthelement;
+package com.listinterface.nthelement;
 
 class Node {
     String data;

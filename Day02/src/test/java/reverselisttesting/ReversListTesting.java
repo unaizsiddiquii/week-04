@@ -1,14 +1,10 @@
 package reverselisttesting;
 
-import com.listinterface.reverselist.LinkedL;
-import com.listinterface.reverselist.Main;
 import com.listinterface.reverselist.Reverse;
 import org.junit.Test;
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Assumptions;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ReversListTesting {

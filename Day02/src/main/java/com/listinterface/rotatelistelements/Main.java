@@ -1,7 +1,6 @@
-package com.rotatelistelements;
+package com.listinterface.rotatelistelements;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Main {

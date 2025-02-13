@@ -1,4 +1,4 @@
-package com.frequencyofelements;
+package com.listinterface.frequencyofelements;
 
 import java.util.*;
 

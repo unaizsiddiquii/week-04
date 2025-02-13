@@ -1,4 +1,4 @@
-package com.removeduplicates;
+package com.listinterface.removeduplicates;
 
 import java.util.Arrays;
 import java.util.List;
