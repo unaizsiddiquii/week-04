@@ -14,7 +14,7 @@ public class ExtractCapitalizedWords {
         Pattern pattern = Pattern.compile(regex);
         Matcher matcher = pattern.matcher(text);
 
-        //displaying the result
+        //displaying the capitalized words in the text
         while (matcher.find()) {
             System.out.print(matcher.group() + ", ");
         }
