@@ -55,6 +55,7 @@ public class ListManagerTesting {
         list.add(3);
         list.add(4);
 
+        //getting size with listManager class method
         int actual = ListManager.getSize(list);
         int expected = 4;
 

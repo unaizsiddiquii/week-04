@@ -2,6 +2,7 @@ package com;
 
 import java.util.List;
 
+//list Manager class
 public class ListManager {
 
     //    method to add element in the list
@@ -18,6 +19,11 @@ public class ListManager {
 
     //    method to get the size of list
     public static int getSize(List<Integer> list) {
+
         return list.size();
+    }
+
+    public static void main(String[] args) {
+
     }
 }
