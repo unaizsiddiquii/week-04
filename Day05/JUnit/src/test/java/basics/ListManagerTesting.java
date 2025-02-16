@@ -24,6 +24,7 @@ public class ListManagerTesting {
         expectedList.add(3);
 
         Assertions.assertEquals(expectedList, actualList);
+        System.out.println("Elements are correctly added");
 
     }
 
@@ -44,6 +45,7 @@ public class ListManagerTesting {
         expectedList.remove(2);
 
         Assertions.assertEquals(expectedList, actualList);
+        System.out.print("Elements are correctly removed.");
 
     }
 
@@ -60,7 +62,12 @@ public class ListManagerTesting {
         int expected = 4;
 
         Assertions.assertEquals(expected, actual);
+        System.out.println();
+        System.out.println();
+        System.out.println("The size of the list is updated correctly.");
+
 
     }
+
 
 }
